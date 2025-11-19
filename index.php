@@ -72,7 +72,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         required>
       
       <button type="submit">Adivinhar</button>
-      <button class="restart-btn" type="submit" name="reiniciar">Reiniciar Jogo</button>
+
+      <!-- Botão REINICIAR corrigido -->
+      <button class="restart-btn" type="submit" name="reiniciar" formnovalidate>
+        Reiniciar Jogo
+      </button>
     </form>
 
     <?php if (!empty($mensagem)): ?>
@@ -86,4 +90,3 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   </div>
 </body>
 </html>
-
