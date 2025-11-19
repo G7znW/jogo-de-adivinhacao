@@ -82,7 +82,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <?php endif; ?>
 
     <p><a href="logout.php">Sair</a></p>
-    <a href="">nosso codigo no gitHub</a>
+    <a href="https://github.com/G7znW/jogo-de-adivinhacao">nosso codigo no gitHub</a>
   </div>
 </body>
 </html>
+
