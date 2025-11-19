@@ -1,0 +1,163 @@
+/* === ESTILO GERAL === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(img/zazu.jpg);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  color: #000000;
+  margin: 8px 0;
+  text-align: center;
+}
+
+a {
+  color: #2196F3;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0b7dda;
+}
+
+/* === CONTAINERS === */
+.auth-container,
+.game-container {
+  background-color: transparent;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* === FORMULÁRIOS (LOGIN, CADASTRO, JOGO) === */
+form,
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #4CAF50;
+}
+
+/* === BOTÕES === */
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+.restart-btn {
+  background-color: #f44336;
+}
+
+.restart-btn:hover {
+  background-color: #e53935;
+}
+
+/* === MENSAGENS === */
+.message {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.message.correct {
+  color: #fff;
+  background-color: #4CAF50;
+}
+
+.message.wrong {
+  color: #fff;
+  background-color: #f44336;
+}
+
+/* === LINKS === */
+.auth-container p,
+.game-container p {
+  font-size: 15px;
+}
+
+.auth-container a,
+.game-container a {
+  font-weight: bold;
+}
+
+/* === RESPONSIVIDADE === */
+@media (max-width: 480px) {
+  .auth-container,
+  .game-container {
+    padding: 25px 20px;
+  }
+
+  button,
+  input {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
+
+/* === AJUSTES EXCLUSIVOS DO JOGO === */
+.game-container h1 {
+  color: #4CAF50;
+  margin-bottom: 15px;
+}
+
+.game-form input {
+  font-size: 18px;
+}
+
+.game-container strong {
+  color: #333;
+}
