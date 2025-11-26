@@ -2,7 +2,7 @@
 
 jogo simples de adivinhar o numero que o site escolhe aleatoriamente
 entre 1 e 100. <br>
-Ao entrar no site ele vai levar pra tea de login, caso voce não tenha clique em cadastrar-se abaix do botão de entrar. Após o cadastro ele te levara novamente pra tela de login
+Ao entrar no site ele vai levar pra tela de login, caso voce não uma tenha uma conta, clique em 'cadastrar-se' abaixo do botão de entrar. Após o cadastro ele te levara novamente pra tela de login
 dai é só voce logar na conta que criou e o site te enviara pra pagina do jogo onde vai conter 1 campo pra escrever um numero de 1 a 10 e dois botões. o botão verde confirma o
 numero escrito no campo, se for o numero certo ele vai aparecer uma mensagem com um fundo verde falando que voce acertou, caso voce erre o numero ele vai aparecer uma mensagem
 com um fundo vermelho faland que vc errou e vai falar tambem se o numeo tem que ser maior ou menor do que o numero escrito no campo. <br>
