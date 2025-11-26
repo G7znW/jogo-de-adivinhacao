@@ -9,11 +9,17 @@ com um fundo vermelho falando que vc errou e vai falar tambem se o numeo tem que
 Na pagina tambem tem um botão vermelho pra reiniciar o jogo, ao clicar no botão ele vai gerar um outro numero aleatorio e tambem vai gerar uma mensagem falando que um outro 
 numero foi gerado.
 ---
-Link do site
+Link do site<br>
 http://projeto4bimestre.ct.ws/
 ---
-Nome dos devs
--Alan Henrique 
+Nome dos devs<br>
+-Alan Henrique <br>
 -Gustavo Gomes
 ---
-para rodar o site localmente voce tera que adicionar o arquivo 
+para rodar o site localmente voce tera que adicionar o arquivo 'projeto4bimestre.zip' na pasta htdocs do xampp e de dentro do arquivo do site voce vai exportar o arquivo .sql no banco de dados do Mysql,
+fazendo todos esses passos voce vai conseguir rodar o site localmente :)
+---
+A estrutura do site foi criada usando<br>
+-HTML<br>
+-CSS<br>
+-PHP<br>
