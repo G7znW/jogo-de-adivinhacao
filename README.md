@@ -8,3 +8,12 @@ numero escrito no campo, se for o numero certo ele vai aparecer uma mensagem com
 com um fundo vermelho falando que vc errou e vai falar tambem se o numeo tem que ser maior ou menor do que o numero escrito no campo. <br>
 Na pagina tambem tem um botão vermelho pra reiniciar o jogo, ao clicar no botão ele vai gerar um outro numero aleatorio e tambem vai gerar uma mensagem falando que um outro 
 numero foi gerado.
+---
+Link do site
+http://projeto4bimestre.ct.ws/
+---
+Nome dos devs
+-Alan Henrique 
+-Gustavo Gomes
+---
+para rodar o site localmente voce tera que adicionar o arquivo 
